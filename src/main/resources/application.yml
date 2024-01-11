@@ -1,0 +1,10 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /demo
+minio:
+  bucket: haoke
+  access-key: minioadmin
+  secret-key: minioadmin
+  endpoint: http://192.168.223.132:9000
+  read-path: http://192.168.223.132:9000
